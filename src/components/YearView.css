@@ -1,0 +1,136 @@
+/* src/components/YearView.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.year-view {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (top-left) */
+}
+
+.header-container {
+  width: 100%;
+}
+
+.header {
+  text-align: left; /* Align title to the left */
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.heatmap-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.month-labels {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* Distribute months evenly */
+  gap: 5px;
+  width: 100%; /* Use full width */
+  margin-bottom: 10px;
+}
+
+.month-name {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.month-name:hover {
+  color: #000;
+}
+
+.heatmap-container {
+  display: flex;
+  width: 100%;
+}
+
+.days-of-week {
+  display: grid;
+  grid-template-rows: repeat(7, 14px); /* Adjusted size */
+  gap: 2px;
+  margin-right: 5px;
+}
+
+.day-label {
+  font-weight: 600;
+  text-align: right;
+  padding-right: 5px;
+  font-size: 0.7rem;
+  color: #666;
+}
+
+.week-grid {
+  display: grid;
+  gap: 2px;
+}
+
+.week-column {
+  display: grid;
+  grid-template-rows: repeat(7, 14px); /* Adjusted size */
+  gap: 2px;
+}
+
+.day-cell {
+  width: 14px; /* Adjusted size */
+  height: 14px; /* Adjusted size */
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  background-color: #e0e0e0; /* Default cell color */
+  transition: background-color 0.3s;
+}
+
+.day-cell:hover {
+  background-color: #ccc;
+}
+
+.background-cell {
+  background-color: transparent;
+  border: none;
+}
+
+.current-day {
+  border: 1px solid #3b5998; /* Thinner border for current day */
+}
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  border-radius: 4px;
+}
+
+.tooltip p {
+  margin: 5px 0;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+}

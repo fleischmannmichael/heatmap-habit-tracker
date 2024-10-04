@@ -1,0 +1,10 @@
+/* src/css/App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+}
