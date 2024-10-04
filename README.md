@@ -15,23 +15,23 @@ Features 🚀
 
 Installation 🛠️
 
-	1.	Clone the repository:
+Clone the repository:
 
-git clone https://github.com/fleischmannmichael/habit-tracker.git
-cd habit-tracker
-
-
-	2.	Install dependencies:
-
-npm install
+	git clone https://github.com/fleischmannmichael/habit-tracker.git
+	cd habit-tracker
 
 
-	3.	Start the application:
+Install dependencies:
 
-npm start
+	npm install
 
 
-	4.	Open the app in your browser:
+Start the application:
+
+	npm start
+
+
+Open the app in your browser:
 Navigate to http://localhost:3000/ in your web browser.
 
 Enjoy tracking your habits and achieving your goals! 🎯
