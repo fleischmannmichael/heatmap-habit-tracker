@@ -1,5 +1,8 @@
 ### Habit Tracker 📆✨
 
+<img width="930" alt="Heatmaphabittrackerscreenshot" src="https://github.com/user-attachments/assets/57fb5f45-d154-424a-ad41-e692db73b41c">
+
+
 A simple and elegant Habit Tracker application built with React to help you monitor and log your habits throughout the year. Keep track of your progress and stay motivated! 💪
 
 Features 🚀
