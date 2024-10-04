@@ -36,4 +36,9 @@ Navigate to http://localhost:3000/ in your web browser.
 
 Enjoy tracking your habits and achieving your goals! 🎯
 
-Short and to the point, with emojis where it makes sense. Hope this helps!
+### Future Features
+
+        Note from past to future self in Year View.
+        The ability to block out days/months where you didn't log anything.
+        More customizable habits and the ability to add more.
+        Popup in Year View showing how many habits you completed and be able to read note of highlight of the day.
