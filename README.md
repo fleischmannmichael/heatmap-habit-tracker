@@ -38,7 +38,7 @@ Enjoy tracking your habits and achieving your goals! 🎯
 
 ### Future Features
 
-        Note from past to future self in Year View.
-        The ability to block out days/months where you didn't log anything.
-        More customizable habits and the ability to add more.
-        Popup in Year View showing how many habits you completed and be able to read note of highlight of the day.
+1. Note from past to future self in Year View.
+2. The ability to block out days/months where you didn't log anything.
+3. More customizable habits and the ability to add more.
+4. Popup in Year View showing how many habits you completed and be able to read note of highlight of the day.
