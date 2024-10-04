@@ -1,4 +1,4 @@
-Habit Tracker 📆✨
+### Habit Tracker 📆✨
 
 A simple and elegant Habit Tracker application built with React to help you monitor and log your habits throughout the year. Keep track of your progress and stay motivated! 💪
 
@@ -14,7 +14,7 @@ Installation 🛠️
 
 	1.	Clone the repository:
 
-git clone https://github.com/yourusername/habit-tracker.git
+git clone https://github.com/fleischmannmichael/habit-tracker.git
 cd habit-tracker
 
 
